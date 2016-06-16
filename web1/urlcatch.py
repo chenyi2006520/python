@@ -2,14 +2,18 @@
 #url获取数据
 
 import urllib
-import urllib.request
 
-data={}
-data["word"] = "java"
-url_values=urllib.parse.urlencode(data)
-url="https://wap.koudaitong.com/v2/showcase/feature?alias=ijvr26ac&spm=m1464743979558252122565650.autoreply"
-full_url=url+url_values
- 
-data=urllib.request.urlopen(full_url).read()
-data=data.decode("UTF-8")
-print(data)
+# print dir(urllib)
+# print help(urllib.urlopen)
+
+url = "http://www.iplaypython.com/"
+html = urllib.urlopen(url)
+# print html.read().decode('gbk').encode('utf-8') #乱码转换
+print html.info() #获取头部信息
+# print html.getcode() #获取状态
+
+#print html.geturl()#获取传值的url
+#下载网页到本地
+# urllib.urlretrieve(url,"/mypc/www/python/web1/abc.html")
+
+urllib.close()
