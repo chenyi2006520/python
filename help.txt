@@ -1,0 +1,467 @@
+LOAD DATA LOCAL INFILE '/home/seven/areas.txt'
+INTO TABLE ktm_bsw_location
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+(ID,ParentId,Name,MergerName,ShortName,MergerShortName,LevelType,CityCode,ZipCode,Pinyin,Jianpin,FirstChar,lng,Lat,Remarks);
+
+备份系统
+dd if=/dev/sda1 of=~/gentoo_$(date +"%Y-%m-%d").backup
+恢复系统
+sudo dd if=gentoo_*.backup of=/dev/sda1
+sudo resize2fs -f /dev/sda5
+sudo e2fsck -f /dev/sda5
+
+www.iplaypython.com
+http://www.pythondoc.com/
+
+http://my.oschina.net/lnmpstudy/blog/484915
+http://blog.csdn.net/u012607848/article/details/46343267
+http://www.cnblogs.com/ruofengzhishang/p/3842587.html
+git config --global user.name "username"
+git config --global user.email "email"
+
+apt-get install flashplugin-installer
+apt-get install fonts-wqy-zenhei
+
+搜狐python项目部署环境
+https://github.com/SohuTech/essay
+
+apt-get install python3-pip
+pip3 install virtualenv
+pip3 install --upgrade pip 
+
+mkdir bottleweb
+cd bottleweb
+virtualenv bottleenv
+
+source bottleenv/bin/activate
+pip install bottle
+deactivate
+
+bottle框架开发教程
+http://blog.91duofanli.com/opensource/%E3%80%8APython3+bottle+Web%E5%BC%80%E5%8F%91%E7%B3%BB%E5%88%97%E6%95%99%E7%A8%8B%E3%80%8B%E7%9B%AE%E5%BD%95
+
+http://docs.jinkan.org/docs/flask/installation.html
+flask中文文档
+
+https://www.fullstackpython.com/blog/python-3-flask-green-unicorn-ubuntu-1604-xenial-xerus.html
+sudo apt-get install virtualenv python-pip python3-dev
+source ~/venvs/flaskproj/bin/activate
+pip install flask gunicorn
+mkdir ~/flaskproj
+cd ~/flaskproj
+
+http://my.oschina.net/itblog/blog/278566
+更换字体
+Unity Tweak Tool
+
+
+
+http://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-2.1.3.zip
+sudo python setup.py install
+
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 100
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 150
+sudo update-alternatives --config python
+
+
+http://blog.jobbole.com/78960/
+http://www.linuxidc.com/Linux/2014-04/100148p2.htm
+git\C5\E4\D6òִ\A2
+
+http://www.drvsky.com/sort/638_1.htm
+
+
+wget -c https://api.sinas3.com/v1/SAE_lnmp/soft/lnmp1.2-full.tar.gz --no-check-certificate && tar zxf lnmp1.2-full.tar.gz && cd lnmp1.2-full && ./install.sh lnmpa
+
+
+\B1\B8\B7\DD:mysqldump -u root -p1988chenyi@ mydbforcy> d:\20160413.sql 
+mysqldump -u root -pQuanTuMore002 bamengdb> /www/web/bswsource/20160416.sql
+
+mysqldump -u root -pQuanTuMore002 bamengdb> /www/web/bameng/20160411.sql
+
+http://www.layoutit.com/build
+http://www.cnblogs.com/lhb25/p/metronic-responsive-admin-dashboard-template.html
+http://www.yyyweb.com/350.html
+http://www.miued.com/visual_de/
+
+yunfuwu@bisai.cn
+QtmBisai001
+\C6\DFţ\D7Զ\A8\D2\E5\D3\F2\C3\FB\CEĵ\B5
+https://support.qiniu.com/hc/kb/article/68977/ 
+
+
+mysqldump \B1\B8\B7\DD\C3\FC\C1\EE 
+root \D3û\A7\C3\FB(root\B9\DC\C0\EDԱ) 
+123456 \C3\DC\C2\EB 
+kcgl \B1\B8\B7ݵ\C4\CA\FD\BEݿ\E2\C3\FB; 
+> \B1\B8\B7ݷ\FB\BA\C5 
+20090219.sql \B1\B8\B7ݵ\C4\CEļ\FE\C3\FB 
+
+ipconfig /flushdns
+
+\BB\B9ԭ: 
+mysql -u root -p1988chenyi@ bamengdb /home/ubuntu/20160315.sql 
+
+mysql \BB\B9ԭ\C3\FC\C1\EE 
+root \D3û\A7\C3\FB(root\B9\DC\C0\EDԱ) 
+123456 \C3\DC\C2\EB 
+dbcurr \B1\B8\B7ݵ\C4\CA\FD\BEݿ\E2\C3\FB; 
+< \BB\B9ԭ\B7\FB\BA\C5 
+20090219.sql\BB\B9ԭ\B5\C4\CEļ\FE\C3\FB 
+
+
+//\CF\C8mkdir\B4\B4\BD\A8\CEļ\FE\BCУ\ACȻ\BA\F3\B9\D2\D4\D8windows\CA\FD\BE\DD\C5\CC
+mount -t ntfs -o nls\A3\BDutf8  /dev/sda2 /winDdata
+
+\C2߼\AD˼ά
+cy2006520
+cy2006520!@#
+
+realtimeroot
+RealTimeHot002
+
+123.59.145.16
+QtmUcloud001
+admin QtmUcloud001!@#
+QuanTuMore002
+qUANtUmORE002!@#
+
+
+vrsqlroot
+vrsqlrootSQL002
+vradmin
+QtmUcloud001
+
+
+bswroot
+bswrootUcloud003
+bswadmin
+QuanTuMore002!@
+
+
+http://blog.chinaunix.net/uid-12427199-id-3767760.html
+
+http://html5up.net/uploads/demos/overflow/
+http://www.layoutit.com/build
+
+http://www.cnblogs.com/jyginger/archive/2010/07/20/1781516.html
+http://www.cnblogs.com/jackluo/p/3919168.html
+
+jquery
+http://www.cnblogs.com/jayleke/archive/2012/08/10/2633174.html
+
+http://blog.csdn.net/kingmax54212008/article/details/7824393
+
+
+http://overtrue.me/articles/2014/10/php-chinese-to-pinyin.html
+
+scholar.google.com
+
+http://html5up.net/
+
+http://www.blogdaren.com/post-1855.html
+
+\CC\DAѶ\CA\D3Ƶ\B5\D8ַ\BB\F1ȡ
+http://static.video.qq.com/TPout.swf?vid=k01798pc91y
+
+
+phpҳ\C3\E6\CF\C2\D4ز\E5\BC\FE
+https://sourceforge.net/projects/snoopy/files/Snoopy/
+
+http://www.itxxz.com/mysql/2015/0114/mysql_split.html
+
+http://jingyan.baidu.com/magazine/20918
+
+\C5\E4\D6ðٶȱ༭\C6\F7\D2Լ\B0\BC\AF\B3\C9\C6\DFţ\D4ƴ洢
+http://www.thinkphp.cn/topic/32633.html
+http://www.thinkphp.cn/code/643.html
+
+\BD\E2\BE\F6Curl 64λ\B2\BB\BC\E6\C8ݵ\C4\CE\CA\CC\E2
+http://blog.csdn.net/u013785779/article/details/20032929
+
+http://stackoverflow.com/questions/27776139/enable-curl-on-windows-for-php5-6-4
+http://localhost:83/Public/Admin/QUEditor/php/controller.php?action=listimage&start=0&size=20&noCache=1454050013845
+
+http://jingyan.baidu.com/article/9faa723152c5d6473d28cb47.html
+http://jingyan.baidu.com/article/ff42efa93580c4c19e2202b6.html
+http://jingyan.baidu.com/article/f3ad7d0ffc061a09c3345bf0.html
+
+
+http://v.qq.com/cover/9/9s2mx37jzpr7bho.html?vid=g0180i172pg&ptag=tips.xw&pt_src=3&ADUIN=329079146&ADSESSION=1452836129&ADTAG=CLIENT.QQ.5461_.0&ADPUBNO=26553
+
+Դ\C2\EB֮\BCҺ\F3̨
+http://www.mycodes.net/154/
+https://www.almsaeedstudio.com/themes/AdminLTE/documentation/index.html#component-main-header
+
+ģ\B0\E5֮\BC\D2
+http://www.cssmoban.com/tags.asp?n=%E5%90%8E%E5%8F%B0
+
+\CC\E5\D3\FD\B4\F3\CA\FD\BE\DD
+http://www.sportsdt.com/service.shtml
+
+
+\D3\C3phpmyadmin\D0޸\C4phome_enewsuser\B1\ED\C0\EF\B5ļ\C7¼\A3\BA\B0\D1password\D7ֶε\C4ֵ\C9\E8Ϊ\A3\BA\A1\B0322d3fef02fc39251436cb4522d29a71\A1\B1\A3\BB\B0\D1salt\D7ֶε\C4ֵ\C9\E8Ϊ\A3\BA\A1\B0abc\A1\B1.
+ \BA\F3̨\B5\C7¼\C3\DC\C2\EB\BE\CD\CAǣ\BA123456 
+
+\B9ر\D5\D0\DD\C3߽\DAʡ\BFռ\E4
+powercfg -h off
+
+055109813061
+
+css3\C0\FD\D7\D3\CF\EEĿ\BF\E2
+http://so.uehtml.com/
+
+workerman\CA\C7һ\B8\F6\B8\DF\D0\D4\C4ܵ\C4PHP socket \B7\FE\CE\F1\C6\F7\BF\F2\BC\DC
+http://www.workerman.net/workerman
+
+\BC\F8\B1\F0\B8߷\C2iphone
+http://wh.yesky.com/401/33836901_2.shtml
+
+https://marketplace.visualstudio.com/#VSCode
+
+\B9ȸ\E8\E4\AF\C0\C0\C6\F7\C0\EB\CF\DF\CF\C2\D4\D8
+https://www.google.com/chrome/browser/desktop/index.html?standalone=1#
+
+6K2KY-BFH24-PJW6W-9GK29-TMPWP 
+http://bbs.pcbeta.com/viewthread-832822-1-1.html
+
+
+http://www.google.cn/maps/@26.1789681,87.9811726,11261316m/data=!3m1!1e3?hl=zh-CN
+
+http://segmentfault.com/q/1010000002585939?_ea=149517
+
+\B9㶫ʡ \C9\EE\DB\DA\CA\D0 \B1\A6\B0\B2\C7\F8 \CE\F7\CF\E7\BDֵ\C0  \C2鲼\D0´\E53\CF\EF5-6\BA\C5201A\CA\D2 
+
+\BA\FE\C4\CFʡ \C9\DB\D1\F4\CA\D0 ¡\BB\D8\CF\D8 \CCҺ\E9\D5\F2  \D0\CB¡\CAг\A1\B4\F3Ժ\C0\EF6\B6\B0 
+
+13973552933
+
+7C81-1689-4046-626F
+
+Centos6\C9\CFһ\BC\FC\B4PPTP VPN 2015\C4\EA\D0°\E6\BDű\BEȫ\D7Զ\AF
+http://vpszn.net/vpsapply/051220562854.html
+
+//VPS\C5\E4\D6\C3VPN
+https://www.nigesb.com/setup-your-own-vpn-with-pptp.html
+
+http://caoliushequ2.pen.io/
+
+
+
+ your VPN username is vpn, VPN password is ljW9SZqO
+
+
+http://www.tomey.me/blog/91.html
+
+
+https://blog.linuxeye.com/412.html
+
+
+115.126.50.48
+
+QTMvps998
+
+
+
+http://apps.evozi.com/apk-downloader/
+
+
+\D4\DALinuxƽ̨\B0\B2װVNCServer\B7\FE\CE\F1\B6\CB\C8\ED\BC\FE\B0\FC\A1\A3
+http://jingyan.baidu.com/album/6c67b1d6f1bac92786bb1e6d.html?picindex=1
+
+http://linux.vbird.org/linux_basic/
+\C4\F1\B8\E7\B5\C4linux˽\B7\BF\B2\CB
+http://www.vpser.net/vps-howto
+http://blog.aoyouhost.com/
+
+wget -c http://soft.vpser.net/lnmp/lnmp1.2-full.tar.gz && tar zxf lnmp1.2-full.tar.gz && cd lnmp1.2-full && ./install.sh lnmp
+
+
+http://www.3389.cn/help/serv/2013/1209/38.html
+
+mkdir /www & mount /dev/sdb1 /www
+echo "/dev/sdb1 /www ext4 defaults 0 0" >> /etc/fstab
+cat /etc/fstab
+
+mkdir /wwwSDB & mount /dev/sdb1 /wwwSDB
+echo "/dev/sdb3 /wwwSDB ext4 defaults 0 0" >> /etc/fstab
+cat /etc/fstab
+
+vpn
+9EksK7Zg
+http://www.sxfj.gov.cn/
+\C5\E4\D6\C3Nginxǰ\B6\CB + Apache\BA\F3\B6˷\FE\CE\F1\C6\F7\BB\B7\BE\B3
+http://www.server110.com/nginx/201402/5413.html
+
+lnmp vhost add
+http://lnmp.org/
+chown www:www -R /www/web1
+
+ֱ\BDӼ\FC\C8\EB\C3\FC\C1yum install screen
+screen -ls
+screen -r 31619.ttyp2.gigan
+
+http://www.xfisp.com/style/info/shownews.asp?id=5
+
+https://wiki.vpsmm.com/linux-basic-command/
+
+http://www.xfisp.com/
+
+ 3dbaf6b37f486fc3db0ef08b3ebb8474353080c0
+
+IP\A3\BA 45.127.97.164 \A1\A1
+MYSQL:
+DBPW:
+\C3\DC\C2룺169e94c6ad
+
+
+http://php999.blogspot.in/2015/11/jetbrain-phpstorm-10-crack.html
+
+\B5\BD\B9\D9\CD\F8\CF\C2\D4\D8phpstorm\B2\A2\B0\B2װ
+\CA״\CE\D4\CB\D0л\E1\CF\D4ʾ\C8\E7\CF¶Ի\B0\BF\F2ѡ\D4\F1\B5ڶ\FE\B8\F6\A3\ACȻ\BA\F3\B5\E3\BB\F7ok\BD\F8\C8\EB\CF\C2һ\B2\BD
+Ȼ\BA\F3\BBᵯ\B3\F6һ\B8\F6\CC\E1ʾע\B2\E1\B5ĶԻ\B0\BF\F2\A3\AC\CA\E4\C8\EB\D2\D4\CF\C2\D0\C5Ϣ\A3\BA
+User Name :EMBRACELicense Key :
+
+===== LICENSE BEGIN =====43136-1204201000002UsvSON704l"dILe1PVx3y4"B349AU6oSDJrsjE8nMOQh"8HTDJHIUUhgd1BebYc5U"6OxDbVsALB4Eb10PW8"===== LICENSE END =====
+\B5\E3\BB\F7ok\BD\F8\C8\EB\CF\C2һ\B2\BD
+ѡ\D4\F1 Accept all terms of the license\A3\ACȻ\BA\F3\B5\E3\BB\F7ok\A3\AC\B4\CBʱ\D2Ѿ\AD\C6ƽ\E2\B3ɹ\A6\A1\A3
+\C4\E3\BF\C9\C4ܲ\BBϲ\BB\B6Ĭ\C8ϵ\C4\D6\F7\CC\E2\BB\F2\D7\D6\CC\E5\BB\F2\D1\D5ɫ\A3\AC\CF\C2\C3\E6\BE\CD\D0޸\C4\CB\FC\C3ǣ\BAһ\B4ε\E3\BB\F7 file->setting,\B5\AF\B3\F6\C8\E7\CF¶Ի\B0\BF\F2\D4ڴ˶Ի\B0\BF\F2\C0\EF\BEͿ\C9\D2\D4\D0޸\C4\C4\E3\CF\EB\D0޸ĵĶ\AB\CE\F7\A3\AC\D5ҵ\BD\C8\E7\CF\C2ͼ\B1\EAע\B5\C4\C7\F8\D3\F2\A3\AC\D4\DA\C0\EF\C3\E6\D0޸ļ\B4\BFɡ\A3
+
+vs2015 \BC\A4\BB\EE\C2\EB
+HMGNV-WCYXV-X7G9W-YCX63-B98R2
+
+https://github.com/bmob
+
+
+http://www.rupeng.com/Activities/7.shtml
+
+
+http://mirrors.opencas.cn 
+http://mirrors.sohu.com/\CBѺ\FC\BE\B5\CF\F1
+
+https://dl.google.com/android/studio/patches/updates.xml 
+     
+\BF\C9\D2Կ\B4\B3\F6\A3\AC\D7\EE\D0µİ汾\A0\91\A3\BA141.2202261\A3\AC\CE҂\83ӛ\CF\C2\DF@\82\80\B0汾̖\A1\A3
+
+2.2\A1\A2\AB@ȡ\D7Լ\BA\B0\B2\D1b Android Studio \B5İ汾
+
+        \BF\C9\D2\D4ͨ\DF^ Menu-Help-About \B4\F2\E9_\EAP\D3ڲˆΣ\AC\D4ڏ\97\B3\F6\B5\C4\EAP\D3ڌ\A6Ԓ\BF\F2\D6\D0\D5ҵ\BD\AE\94ǰ\B0\B2\D1b\B5İ汾̖\A3\BA
+
+        
+
+        \CE҂\83\BF\C9\D2Կ\B4\B3\F6\A3\AC\AE\94ǰ\B0\B2\D1b\B5İ汾̖\A0\91\A3\BA141.2178183\A3\AC\CE҂\83Ҳӛ\CF\C2\DF@\82\80\B0汾̖\A1\A3
+
+2.3\A1\A2\EBx\BE\80\B8\FC\D0°\FC\CF\C2\DDd
+
+        \CE҂\83ͨ\DF^\C8\E7\CFµķ\BDʽƴ\BD\D3\EBx\BE\80\B0\FC\B5\C4 URL\A3\BA
+
+https://dl.google.com/android/studio/patches/AI-[\AE\94ǰ\B0\B2\D1b\B0汾̖]-[Ҫ\B8\FC\D0µ\C4Ŀ\98˰汾]-patch-win.jar
+        \B1\C8\C8磬\C8\E7\B9\FB\B0\B4\CE҂\83\84\82\84\82\BD؈D\B5İ汾̖\81\ED\AB@ȡ\EBx\BE\80\B0\FC\A3\AC\84t URL \A0\91\A3\BA
+
+https://dl.google.com/android/studio/patches/AI-141.2178183-141.2202261-patch-win.jar
+        Ȼ\E1\E1\CE҂\83\CF\C2\DDd\B5õ\BD\DF@\82\80\EBx\BE\80\B8\FC\D0\C2 jar \B0\FC\A1\A3
+
+3\A1\A2\EBx\BE\80\B0\FC\B0\B2\D1b
+
+        \CA\D7\CF\C8\EAP\E9]\CB\F9\D3е\C4 Android Studio \C8΄գ\AC\B0ѵõ\BD\B5\C4 jar \B8\FC\D0°\FC\B7ŵ\BD \B3\FD Android Studio \B0\B2\D1bĿ䛵\C4\C8\CE\D2\E2Ŀ\E4\9B\CF¡\A3\86\99\84\D3\C3\FC\C1\EE\D0У\ACݔ\C8\EB\C8\E7\CF\C2\C3\FC\C1
+
+java -classpath AI-141.2178183-141.2202261 com.intellij.updater.Runner install [Android\Install\Path]
+        ע\D2\E2\D7\EE\E1\E1\B5\C4 [Android\Install\Path]\A3\AC\CC\E6\93Q\A0\91\C4\E3\99C\C6\F7\C9ϵ\C4 Android Studio \B5İ\B2\D1bĿ䛡\A3Ȼ\E1\E1\BB\D8܇\88\CC\D0\D0\C3\FC\C1\DF@\95r\BA\F2\95\FE\8F\97\B3\F6\8C\A6Ԓ\BF\F2\A3\ACչʾ\B0\B2\D1b\BE\DF\F3w\DFM\B6ȣ\BA
+
+
+
+
+
+http://tools.android.com/download/studio/builds/1-5
+http://jcenter.bintray.com/junit/junit/4.12/
+
+http://download.csdn.net/download/ahgaoyong/8374743
+
+
+microsoft sql server management studio
+
+http://jingyan.baidu.com/article/f3ad7d0ffc061a09c3345bf0.html
+
+http://aben328.iteye.com/blog/609495
+
+
+net user username newpassword
+
+1\A3\ACNK8R7-8VXCQ-3M2FM-8446R-WFD6X
+
+N4M7D-PD46X-TJ2HQ-RPDD7-T28P9
+448871-067790-588290-306152-992884-832750-999585-670021
+
+
+2B8KN-FFK6J-YWMV4-J3DY2-3YF29
+
+
+visio
+QQ4NR-2Q67B-X9C6R-4B8CH-HXJRD
+
+PBRNH-MY4D4-67BQK-WGM4P-XTKMQ
+KD8CP-DN968-RGQM6-PMFMK-M96YQ
+210096-598105-476875-576880-539882-081131-170986-528244
+
+
+slmgr /ipk N4M7D-PD46X-TJ2HQ-RPDD7-T28P9
+slmgr.vbs -ipk K668Q-B69X2-NVPH6-VJ3R7-DRPM3
+
+
+http://192.168.1.100:81/includes/jquery-plugin-boxy/page/jQuery-plugin-boxy.html
+
+http://192.168.1.100:81/Ajax/Ad_Ajax_up.asp?flag=1&adid=2249
+http://192.168.1.100:81/Ajax/Ad_Ajax_up.asp?flag=3&channelLocation=3
+
+http://192.168.1.100:81/Ajax/Ad_Ajax_up.asp?flag=1&adid=2254&ShowFlag=ShowFlag
+
+
+http://192.168.1.100:81/Ajax/Ad_Ajax_up.asp?flag=5&thisState=1&dataId=-1,172,173,174,175,176
+
+
+
+http://192.168.1.100:81/Ajax/Ad_Ajax_up.asp?flag=3&adid=2254&channelLocation=3&channelLocationFlag=2
+
+--\B2鿴\B5\B1ǰ\B9ؼ\FC\D7\D6\CAǷ\F1\D3\D0\C9\CCƷ
+http://192.168.1.100:81/Ajax/Ajax_ReturnKeyWord.asp?flag=1&searchKeyWord=\C7\E9Ȥ\C4\DA
+
+http://192.168.1.100:81/Ajax/Ad_Ajax_up.asp?flag=2&adid=2253&ShowLocation=4&thisState=1&channelLocation=1003
+
+http://192.168.1.100:81/Ajax/Ad_Ajax_up.asp?flag=2&adid=2253&ShowLocation=2&thisState=0&channelLocation=0&dataid=166
+
+
+
+http://192.168.1.100:81/Ajax/Ad_Ajax_up.asp?flag=3&channelLocation=4&channelLocationFlag=2&adid=2251
+
+
+
+http://admin.zg51.net/Ajax/Ad_Ajax_up.asp?flag=6&adid=2250&ShowLocation=1,2,3,4,5,6,7,8,9,10,11,12,13,
+
+
+http://192.168.1.198:81/Ajax/Ad_Ajax_up.asp?flag=6&adid=2250&ShowLocation=1,2,3,4,5,6,7,8,9,10,11,12,13,
+
+
+
+http://192.168.1.100:81/Channel_ConfigInfo/ConfigInfoChildIndex.asp
+
+
+
+
+
+http://192.168.1.100:91/wapadmin/PvScheduled/PvScheduledIndex.asp
+
+
+
+
+
+
+
+http://192.168.1.111:81/RZ_Project/hrMobilize/leave_Add.asp
+http://192.168.1.111:81/RZ_Project/hrMobilize/reinstated_Add.asp
+/cy_FunLib/Ajax.asp?ajaxFlag=checkUser&checkUserName=checkValue&checkPage=checkPage
+
+http://192.168.1.111:81/RZ_Project/Recruitment/Position_Add.asp
+
+
+http://www.cnblogs.com/tiger8000/archive/2011/10/21/2220016.html
