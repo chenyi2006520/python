@@ -1,4 +1,4 @@
-#!/mypc/www/bottleweb/bottleenv/bin/python3
+#!/mypc/www/python/bottleweb/bottleenv/bin/python3
 # -*- coding: utf-8 -*-
 """
 Bottle is a fast and simple micro-framework for small web applications. It

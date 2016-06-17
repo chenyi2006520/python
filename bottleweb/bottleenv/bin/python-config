@@ -1,4 +1,4 @@
-#!/mypc/www/bottleweb/bottleenv/bin/python
+#!/mypc/www/python/bottleweb/bottleenv/bin/python
 
 import sys
 import getopt
