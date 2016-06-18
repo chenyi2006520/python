@@ -57,7 +57,7 @@ def get_page_content(url,host,referer):
     req.add_header("Referer",referer)
     req.add_header("GET",url)
     content = urllib2.urlopen(req).read()
-    print random_header
-    return 
+    # print random_header
+    return content
     
 print get_page_content(url,host,referer)
