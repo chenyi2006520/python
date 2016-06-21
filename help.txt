@@ -4,6 +4,10 @@ FIELDS TERMINATED BY '\t'
 LINES TERMINATED BY '\n'
 (ID,ParentId,Name,MergerName,ShortName,MergerShortName,LevelType,CityCode,ZipCode,Pinyin,Jianpin,FirstChar,lng,Lat,Remarks);
 
+百度站长
+15385188030
+qtmbaidu88
+
 
 浏览器标识
 "Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B176 MicroMessenger/4.3.2",
