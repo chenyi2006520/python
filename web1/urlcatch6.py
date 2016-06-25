@@ -19,9 +19,9 @@ def get_imageContent(info):
     x = 1
     for img in all_image:
         print img['src']
-            image_name = "%s.jpg" % x
-            urllib.urlretrieve(img['src'],image_name)
-            x += 1
+        image_name = "%s.jpg" % x
+        #urllib.urlretrieve(img['src'],image_name)
+        x += 1
         
         
 page_content = get_pageContent("http://tieba.baidu.com/p/2772656630")

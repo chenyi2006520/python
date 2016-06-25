@@ -8,6 +8,8 @@ LINES TERMINATED BY '\n'
 15385188030
 qtmbaidu88
 
+gpg: 密钥 1962A8A0：公钥“Launchpad stevecrozz”
+
 
 浏览器标识
 "Mozilla/5.0 (iPhone; CPU iPhone OS 5_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mobile/9B176 MicroMessenger/4.3.2",
@@ -34,6 +36,7 @@ sudo e2fsck -f /dev/sda5
 www.iplaypython.com
 http://www.pythondoc.com/
 
+git 配置
 http://my.oschina.net/lnmpstudy/blog/484915
 http://blog.csdn.net/u012607848/article/details/46343267
 http://www.cnblogs.com/ruofengzhishang/p/3842587.html
@@ -54,7 +57,7 @@ mkdir bottleweb
 cd bottleweb
 virtualenv bottleenv
 
-source bottleenv/bin/activate
+source bottleenv/bin/activate //开启虚拟开发环境
 pip install bottle
 deactivate
 

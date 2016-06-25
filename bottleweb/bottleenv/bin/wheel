@@ -1,4 +1,4 @@
-#!/mypc/www/python/bottleweb/bottleenv/bin/python3
+#!/mypc/www/python/bottleweb/bottleenv/bin/python
 
 # -*- coding: utf-8 -*-
 import re
