@@ -1,4 +1,4 @@
-#coding:utf8
+#coding:utf-8
 
 #import MySQLdb
 #conn = MySQLdb.connect(host='127.0.0.1',user='root',passwd='1988chenyi@',db='mydbforcy')
@@ -15,12 +15,16 @@
 import mysql.connector
 import sys,os
 
+# reload(sys)
+# sys.setdefaultencoding('utf8')
+# print sys.getdefaultencoding()
+
 conn = mysql.connector.connect(user="root",password="1988chenyi@",host="localhost",database="mydbforcy")
 cursor = conn.cursor()
 cursor.execute('select * from ktm_bsw_event')
 result = cursor.fetchall()
 for res in result:
-    print(res)
+    print res
 cursor.close()
 cursor.close()
 

@@ -79,6 +79,32 @@ http://my.oschina.net/itblog/blog/278566
 Unity Tweak Tool
 
 
+PHP Python 数据转换
+
+首先必须清楚，PHP数据类型和Python数据类型并非可以一一对应，因此数据转换需要做出必要的规定，比如在Python中有List、元组、字典等数据类型，而PHP相应的容器型数据类型只有数组，数据转换详细参看下面的表格：
+
+PHP数据转换到Python：
+
+| PHP类型 | Python类型 | |:----------|:-------------| |NULL |None | |int |int | |string |string | |boolean |boolean | |float |float | |array(下标int)1 |元组 | |array(下标string)2 |字典 | |对象(PHP4)3 |对象 |
+
+1) 当PHP数组第一个元素的下标是int类型0时，转换到Python的List
+
+2) 当PHP数组第一个元素的下标非int类型0时，转换到Python的字典，下标字符串作为字典的key
+
+3) 目前只支持PHP4对象的转换
+
+Python数据转换到PHP：
+
+| Python类型 | PHP类型 | |:-------------|:----------| |None |NULL | |int |int | |string |string | |boolean |boolean | |float |float | |List1 |array(下标int)| |元组1 |array(下标int)| |字典2 |array(下标string)| |对象3 |对象(PHP4) |
+
+1) List和元组在转换到PHP的数组时，按顺序自动添加PHP数组下标，从0开始
+
+2) 字典同样转换到PHP的数组，字典的key作为数组的下标
+
+3) 对象的转换规则请看后面的文档
+
+
+
 
 http://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-2.1.3.zip
 sudo python setup.py install
